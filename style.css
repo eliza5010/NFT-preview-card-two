@@ -1,0 +1,113 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(217, 54%, 11%);
+    border: auto;
+    margin-top: 100px;
+     
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    border-radius: 10px;
+    background-color:  hsl(215, 82%, 13%);
+}
+figure{
+    display: flex;
+    justify-content: center;
+}
+
+img{
+    border-radius: 8px; 
+    width: 200px;
+    height: 200px;
+}
+ img:hover{
+    filter: grayscale(80%);
+    cursor: pointer;
+}
+h1{
+    font-size:14px;
+    color:white;
+    padding-left: 10px;
+}
+h1:hover{
+    color:aqua;
+
+}
+.introduction{
+    width: fit-content;
+}
+p{
+    font-size: 16px;
+    font-weight: 300;
+    padding: 10px;
+    margin:0px;
+    color:rgb(105, 119, 145);
+    width: 260px;
+}
+.line{
+    width: 90%;
+    background: hsl(215, 32%, 27%);
+    height: 1px;
+    margin-left: 15px;
+}
+.ava{
+display: flex;
+
+}
+h5{
+    padding: auto;
+    color: rgb(112, 135, 179);
+    color:#FFFFFF;
+}
+
+span:hover{
+    color:aqua;
+    padding-right: 40px;
+    }
+
+    .ava figure{
+        margin-right: 0;
+    }
+
+div.ava img{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;    
+}
+
+
+.aside{
+       margin-right: 5;
+      padding-left: 10px;
+        display: flex;
+        justify-content: space-between;
+        padding-left: 8px;
+       }
+
+ .aside aside > img{
+    width: 20px;
+    height: 20px;
+ }
+
+ .aside aside{
+    margin-right: 10px;
+ }
+
+ .aside aside{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ h3{
+    margin-left: 5px;
+    padding-right: 10px;
+    font-size: 12px;
+    color: rgb(105, 119, 145);
+ }
+ h3:hover{
+    color:aqua;
+ }
